@@ -1,4 +1,4 @@
-//#include "stdafx.h"//
+#include "stdafx.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -54,8 +54,7 @@ int sum(char** str, int k)
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
-	system("CLS");
+	
 	int n, m, i, j;
 	char** str;
 	char* temp;
